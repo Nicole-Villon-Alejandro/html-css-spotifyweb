@@ -35,10 +35,18 @@ body{
     background-color: var(--color-sidebar);
 }
 
+
 .layout__main{
     flex-basis: 90%;
     border: 3px lightsalmon;
     overflow-y: auto;
+
+
+}
+
+.layout__main h2{
+    margin-block: 10px;
+    padding-inline: 10px;
 
 }
 
@@ -91,5 +99,40 @@ body{
 
 .layout-bottom{
     background-color: #282828;
+}
+
+.layout__sidebar--playlist{
+    display: none;
+}
+
+.layout__main--menus ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 1rem;
+
+}
+
+.layout__main--albums{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-inline: 10px;
+}
+
+.layout__main--albums .card{
+    flex-basis: calc(100% / 2 - 9px);
+    text-align: center;
+}
+
+.layout__main--albums .card{
+    width: 100%;
+}
+
+.layout__main--playlist-JD{
+    display: none;
 }
 

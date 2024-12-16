@@ -14,6 +14,10 @@
         display: inline;
     }
 
+    .layout__sidebar{
+        min-width: 250px;
+    }
+
 
 }
 
@@ -42,6 +46,17 @@
 
     .layout__sidebar--logos img[alt$="logo"]{
         display: inline-block;
+    }
+
+
+    .layout__main--playlist-JD{
+        display: inline;
+        flex-basis: calc(100% / 2 - 9px);
+        text-align: center;
+    }
+    
+    .layout__main--albums .card{
+        width: 100%;
     }
     
 }
