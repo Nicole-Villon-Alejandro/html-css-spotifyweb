@@ -115,7 +115,8 @@ body{
 
 }
 
-.layout__main--albums{
+.layout__main--albums, 
+.layout__main--playlist-JD{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -123,16 +124,17 @@ body{
     padding-inline: 10px;
 }
 
-.layout__main--albums .card{
+.layout__main--albums .card,
+.layout__main--playlist-JD .card{
     flex-basis: calc(100% / 2 - 9px);
     text-align: center;
 }
 
-.layout__main--albums .card{
+.layout__main--albums .card img{
     width: 100%;
 }
 
-.layout__main--playlist-JD{
+/*.layout__main--playlist-JD{
     display: none;
-}
+}*/
 
