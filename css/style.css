@@ -6,3 +6,36 @@
     --color-text: #797B81;
     --color-text-link: #ADFF2E;
 }
+
+body{
+    background-color: var(--color-main);
+    color: white;
+    
+}
+
+.layout-top{
+    height: 90vh;
+    border: 3px solid lightgreen;
+    display: flex;
+}
+
+.layout-bottom{
+    height: 10vh;
+    border: 3px solid lightcoral;
+}
+
+.layout__sidebar{
+    flex-basis:  10%;
+    border: 3px solid lightcyan;
+}
+
+.layout__main{
+    flex-basis: 90%;
+    border: 3px lightsalmon;
+}
+
+.layout__cta{
+    border: 3px solid lightseagreen;
+    padding: 20px;
+    text-align: right;
+}
