@@ -1,15 +1,48 @@
-/*mobile first*/
+/*mobile first - extra_small*/
 
-
+/* spotify-small */
 @media screen and (min-width: 480px) {
+    .layout__sidebar--logos img[alt$="small"]{
+        display: none;
+    }
+
+    .layout__sidebar--logos img[alt$="logo"]{
+        display: inline-block;
+    }
+
+    .layout__sidebar--menu ul li a span{
+        display: inline;
+    }
+
 
 }
 
+/* spotify- medium */
 @media screen and ( min-width: 768px) {
+    .layout__sidebar--logos img[alt$="small"]{
+        display: none;
+    }
+
+    .layout__sidebar--logos img[alt$="logo"]{
+        display: inline-block;
+    }
     
 }
 
+/* spotify-large */
 @media screen and ( min-width: 1024px) {
+    .layout__cta{
+        font-size: 2rem;
+        
+    }
+
+    .layout__sidebar--logos img[alt$="small"]{
+        display: none;
+    }
+
+    .layout__sidebar--logos img[alt$="logo"]{
+        display: inline-block;
+    }
     
 }
     

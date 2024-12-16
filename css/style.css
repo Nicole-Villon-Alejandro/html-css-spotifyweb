@@ -27,15 +27,69 @@ body{
 .layout__sidebar{
     flex-basis:  10%;
     border: 3px solid lightcyan;
+
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    
+    background-color: var(--color-sidebar);
 }
 
 .layout__main{
     flex-basis: 90%;
     border: 3px lightsalmon;
+    overflow-y: auto;
+
 }
 
 .layout__cta{
     border: 3px solid lightseagreen;
     padding: 20px;
     text-align: right;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-cta);
+    font-size: 1rem;
+    
 }
+
+.btn{
+    border: 1px solid white;
+}
+
+.btn--circle{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/*.layout__sidebar--top{
+    border: 3px solid lightcoral
+    height: (calc 100% - 100px)
+
+}
+.layout__sidebar--bottom{
+    border: 3px solid lightcoral
+    height: 100px
+}
+*/
+
+.layout__sidebar--logos img[alt$="logo"]{
+    display: none;
+}
+
+
+.layout__sidebar--menu ul li a span{
+    display: none;
+}
+
+.layout__sidebar--menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.layout-bottom{
+    background-color: #282828;
+}
+
